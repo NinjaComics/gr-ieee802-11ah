@@ -30,11 +30,11 @@ mapper_impl(Encoding e, bool debug) :
 	block ("mapper",
 			gr::io_signature::make(0, 0, 0),
 			gr::io_signature::make(1, 1, sizeof(char))),
-			d_symbols_offset(0),
-			d_symbols(NULL),
-			d_debug(debug),
-			d_scrambler(1),
-			d_ofdm(e) {
+	d_symbols_offset(0),
+	d_symbols(NULL),
+	d_debug(debug),
+	d_scrambler(1),
+	d_ofdm(e) {
 
 	message_port_register_in(pmt::mp("in"));
 	set_encoding(e);
@@ -58,9 +58,10 @@ void print_message(const char *msg, size_t len) {
 }
 
 
-int general_work(int noutput, gr_vector_int& ninput_items,
-			gr_vector_const_void_star& input_items,
-			gr_vector_void_star& output_items ) {
+int general_work(int noutput, 
+				gr_vector_int& ninput_items,
+				gr_vector_const_void_star& input_items,
+				gr_vector_void_star& output_items ) {
 
 	unsigned char *out = (unsigned char*)output_items[0];
 	dout << "MAPPER called offset: " << d_symbols_offset <<

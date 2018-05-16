@@ -36,9 +36,11 @@ using namespace gr::ieee802_11;
 
 class mac_impl : public mac {
 
-public:
-
-mac_impl(std::vector<uint8_t> src_mac, std::vector<uint8_t> dst_mac, std::vector<uint8_t> bss_mac) :
+public: 
+mac_impl(
+	std::vector<uint8_t> src_mac, 
+	std::vector<uint8_t> dst_mac, 
+	std::vector<uint8_t> bss_mac) :
 		block("mac",
 			gr::io_signature::make(0, 0, 0),
 			gr::io_signature::make(0, 0, 0)),
@@ -172,7 +174,9 @@ private:
 };
 
 mac::sptr
-mac::make(std::vector<uint8_t> src_mac, std::vector<uint8_t> dst_mac, std::vector<uint8_t> bss_mac) {
+mac::make(std::vector<uint8_t> src_mac, 
+			std::vector<uint8_t> dst_mac, 
+			std::vector<uint8_t> bss_mac) {
 	return gnuradio::get_initial_sptr(new mac_impl(src_mac, dst_mac, bss_mac));
 }
 
