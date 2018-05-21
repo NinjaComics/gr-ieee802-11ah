@@ -87,6 +87,8 @@ void signal_field_impl::generate_signal_field(char *out, frame_param &frame, ofd
 		signal_header[18 + i] = 0;
 	}
 
+	std::cout << "SIGNAL_FIELD header: " << signal_header << std::endl;
+	
 	ofdm_param signal_ofdm(BPSK_1_2);
 	frame_param signal_param(signal_ofdm, 0);
 
