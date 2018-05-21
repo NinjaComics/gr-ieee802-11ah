@@ -34,12 +34,11 @@
 struct mac_header {
 	//protocol version, type, subtype, to_ds, from_ds, ...
 	uint16_t frame_control;
-	//uint16_t duration;
+	uint16_t duration;
 	uint8_t addr1[6];
 	uint8_t addr2[6];
-	uint16_t seq_nr;
 	uint8_t addr3[6];
-	uint8_t addr4[6];
+	uint16_t seq_nr;
 }__attribute__((packed));
 
 /**
