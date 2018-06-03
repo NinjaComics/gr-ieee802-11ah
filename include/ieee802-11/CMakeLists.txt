@@ -80,6 +80,7 @@ list(APPEND include_sources
     signal_field.h
     sync_long.h
     sync_short.h
+    ofdm_allocator.h
 )
 
 install(
