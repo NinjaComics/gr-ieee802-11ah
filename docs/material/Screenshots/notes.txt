@@ -1,3 +1,0 @@
-Found S1G preamble definition from 436 (S1G_2M+) and 458 (S1G_1M).
-
-NDP definition at 477 (short-hand changes described).
