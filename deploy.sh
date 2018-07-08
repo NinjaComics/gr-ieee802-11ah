@@ -7,7 +7,9 @@ mkdir repos
 cd repos
 git clone https://github.com/davidzwa/gr-ieee802-11ah
 cd gr-ieee802-11ah
-git checkout dynamic-ofdm-alloc
+git config --global user.email "davidzwa@gmail.com"
+git config --global user.name "AutoDeployer"
+git checkout master
 sh maker.sh
 cd ..	# out of gr-ieee802-11ah to Documents
 
