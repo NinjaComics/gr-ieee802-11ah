@@ -11,7 +11,16 @@
 			"file": "repos/gr-ieee802-11ah/deploy.sh",
 			"settings":
 			{
-				"buffer_size": 947,
+				"buffer_size": 1125,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "repos/gr-ieee802-11ah/grc/ieee802_11_ofdm_allocator.xml",
+			"settings":
+			{
+				"buffer_size": 1099,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -49,14 +58,19 @@
 	},
 	"expanded_folders":
 	[
+		"/home/ubuntu/Documents/repos/gr-ieee802-11ah",
+		"/home/ubuntu/Documents/repos/gr-ieee802-11ah/grc",
+		"/home/ubuntu/Documents/repos/gr-ieee802-11ah/include",
+		"/home/ubuntu/Documents/repos/gr-foo"
 	],
 	"file_history":
 	[
+		"/home/ubuntu/Documents/repos/gr-ieee802-11ah/run.sh",
+		"/home/ubuntu/Documents/repos/gr-ieee802-11ah/grc/ieee802_11_ofdm_allocator.xml",
 		"/home/ubuntu/Documents/rungrc.sh",
 		"/home/ubuntu/documents",
 		"/Home",
 		"/home/ubuntu/Documents/repos/gr-ieee802-11ah/include/ieee802-11/ofdm_allocator.h",
-		"/home/ubuntu/Documents/repos/gr-ieee802-11ah/run.sh",
 		"/home/ubuntu/Documents/repos/gr-ieee802-11ah/deploy.sh",
 		"/home/ubuntu/Documents/repos/gr-ieee802-11ah/Home"
 	],
@@ -93,7 +107,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -102,20 +116,50 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 947,
+						"buffer_size": 1125,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								381,
-								381
+								1079,
+								1079
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/ShellScript/Bash.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "repos/gr-ieee802-11ah/grc/ieee802_11_ofdm_allocator.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1099,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								795,
+								795
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -204,7 +248,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 314.0,
+	"side_bar_width": 370.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

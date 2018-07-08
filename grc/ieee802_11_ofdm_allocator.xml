@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <block>
   <name>OFDM Carrier Allocator</name>
-  <key>digital_ofdm_carrier_allocator_cvc</key>
-  <import>from gnuradio import digital</import>
-  <make>digital.ofdm_carrier_allocator_cvc($fft_len, $occupied_carriers, $pilot_carriers, $pilot_symbols, $sync_words, $len_tag_key)</make>
+  <key>dynamic_ofdm_carrier_allocator</key>
+  <import>import ieee802_11</import>
+  <make>ieee802_11.ofdm_allocator()</make>
   <param>
     <name>FFT length</name>
     <key>fft_len</key>
