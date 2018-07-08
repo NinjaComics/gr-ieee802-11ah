@@ -1,0 +1,14 @@
+{
+	"folders":
+	[
+		{
+			"path": "."
+		},
+		{
+			"path": "repos/gr-ieee802-11ah"
+		},
+		{
+			"path": "repos/gr-foo"
+		}
+	]
+}

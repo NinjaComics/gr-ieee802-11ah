@@ -18,7 +18,7 @@
 #define INCLUDED_OFDM_ALLOCATOR_H
 
 #include <ieee802-11/api.h>
-#include <gnuradio/block.h>
+#include <gnuradio/tagged_stream_block.h>
 
 namespace gr {
 namespace ieee802_11 {

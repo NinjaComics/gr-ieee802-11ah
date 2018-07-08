@@ -1,5 +1,6 @@
+xrandr --size 1680x1050
+
 # wget https://github.com/davidzwa/gr-ieee802-11ah/raw/dynamic-ofdm-alloc/deploy.sh; bash deploy.sh
-xrandr -s 1900x1200
 sudo apt-get update
 cd /home/ubuntu/Documents
 mkdir repos
@@ -29,5 +30,7 @@ sudo apt-get install apt-transport-https
 echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
 sudo apt-get update
 sudo apt-get install sublime-text
-#subl
 
+
+# Assumes sublime project was opened
+subl --project gr-ah.sublime-project
