@@ -7,7 +7,7 @@ mkdir repos
 cd repos
 git clone https://github.com/davidzwa/gr-ieee802-11ah
 cd gr-ieee802-11ah
-git checkout master
+git checkout dynamic-ofdm-alloc
 sh maker.sh
 cd ..	# out of gr-ieee802-11ah to Documents
 
